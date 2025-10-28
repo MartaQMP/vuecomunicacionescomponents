@@ -1,19 +1,19 @@
 <template>
-  <PadreDeporte/>
+  <CheckboxComponent/>
 </template>
 
 <script>
-import PadreDeporte from './components/PadreDeporte.vue';
+import CheckboxComponent from './components/CheckboxComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    PadreDeporte
+    CheckboxComponent
   }
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
