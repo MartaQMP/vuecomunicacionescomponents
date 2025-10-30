@@ -30,7 +30,7 @@ export default {
             if (aux.length != 0) {
                 aux.forEach(num=> {
                     this.suma += parseInt(num)
-                    //HOLA
+                
                 })
             }
         },

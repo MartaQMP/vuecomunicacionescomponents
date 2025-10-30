@@ -1,14 +1,15 @@
 <template>
-  <CheckboxComponent/>
+  <MenuTablaMultiplicar/>
+  <router-view/>
 </template>
 
 <script>
-import CheckboxComponent from './components/CheckboxComponent.vue';
+import MenuTablaMultiplicar from './components/routingtablamultiplicar/MenuTablaMultiplicar.vue';
 
 export default {
   name: 'App',
   components: {
-    CheckboxComponent
+    MenuTablaMultiplicar
   }
 }
 </script>

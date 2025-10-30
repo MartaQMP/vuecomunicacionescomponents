@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div id="div1">
         <h2>{{ nombredeporte }}</h2>
-        <button @click="seleccionarFavorito">Seleccionar favorito</button>
+        <button @click="seleccionarFavorito" class="btn btn-primary">Seleccionar favorito</button>
     </div>
 </template>
 
@@ -24,4 +24,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+#div1{
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+</style>
